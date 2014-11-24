@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edu.tube"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.edu.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.edu.tube.ParentsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.edu.tube.VideoListActivity" >
+        </activity>
+        <activity android:name="com.edu.tube.MyPlaylists" >
+        </activity>
+        <activity android:name="com.edu.tube.VideoPlayerActivity" >
+        </activity>
+        <activity android:name="com.edu.tube.Image_Gallery" >
+        </activity>
+        <activity android:name="com.edu.tube.About" >
+        </activity>
+        <activity android:name="com.edu.tube.Contact" >
+        </activity>
+        <activity android:name="com.edu.tube.Searchvideo" >
+        </activity>
+        <activity android:name="com.edu.tube.ImageEditActivity"></activity>
+         <activity android:name="com.edu.tube.SocialActivity" >
+        </activity>
+    </application>
+
+</manifest>

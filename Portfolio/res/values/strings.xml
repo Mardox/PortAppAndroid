@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Portfolio</string>
+    <string name="hello_world">Hello world!</string>
+<string-array name="menu_item">
+        <item>Gallery</item>
+        <item>Videos</item>
+        <item>About</item>
+        <item>Contact</item>
+        <item>Social</item>
+    </string-array>
+    
+<string-array name="social_item">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Google Plus</item>
+        <item>Instagram</item>
+        <item>LinkedIn</item>
+    </string-array>
+    <string-array name="menu_text">
+        <item>Have a look at out portfolio and get to our work</item>
+        <item>Check out our videos and get a taste of what we can do for you!</item>
+        <item>All about who we are and what we can do for you</item>
+        <item>Get in touch! we know that we can give you the best service</item>
+        <item>Follow us for the latest news and  awesomeness</item>
+    </string-array>
+    
+    <string-array name="social_text">
+        <item>Like us on Facebook</item>
+        <item>Follow us on Twitter</item>
+        <item>Find us on Google+</item>
+        <item>Follow us on Instagram</item>
+        <item>Join our professional network</item>
+    </string-array>
+    
+    <string-array name="menu_icon">
+        <item>galleryicon.png</item>
+        <item>videoicon.png</item>
+        <item>abouticon.png</item>
+        <item>videoicon.png</item>
+        <item>socialicon.png</item>
+    </string-array>
+
+    <string name="title_activity_image__gallery">Gallery</string>
+    <string name="playlist_search">playlist</string>
+    <string name="playlist_id">PLVJe9J-41SJe-9ylJSjk0ptIgbCqfGEvW</string>
+</resources>

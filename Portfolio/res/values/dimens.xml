@@ -1,0 +1,7 @@
+<resources>
+        
+    <dimen name="title">25dp</dimen>
+    <dimen name="rating">15dip</dimen>
+   
+
+</resources>

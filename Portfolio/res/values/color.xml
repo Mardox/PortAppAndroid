@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="selecte_green">#1ABC9C</color>
+    <color name="bg_light_gray">#303030 </color>
+    <color name="sky_color">#00AFF0</color>
+    <color name="header_color">#333275</color>
+    <color name="blue_color">#00479D</color>
+    
+
+</resources>
